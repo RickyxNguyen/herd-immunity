@@ -34,11 +34,10 @@ class Logger(object):
         '''
         with self.open_file('a') as data:
             if did_die_from_infection:
-                data.write(f'{person._id} died from infection\n')
+                data.write(f'{person._id} died from infection \n')
             else:
-                data.write(f'{person._id} survived infection\n')
+                data.write(f'{person._id} survived infection \n')
 
-            data.write('/n')
 
     def log_time_step(self, time_step_number,newly_infected_count, newly_dead_people,
                     total_infected, total_dead):
