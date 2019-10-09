@@ -50,6 +50,9 @@ class Logger(object):
                       f'{total_infected} got infected, '
                       f'{total_dead} have died, '
                       f'beginning {time_step_number + 1}...\n')
+        '''
+        This will allow me to open a file and access it
+        '''
 
     def open_file(self, mode='r', buffering=-1, encoding=None, errors=None,
                     newline=None, closefd=True, opener=None):

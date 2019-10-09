@@ -5,7 +5,7 @@ from virus import Virus
 
 class TestPerson:
     def test_init(self):
-        ebola = Virus("Ebola", 0.8, 0.1)
+        ebola = Virus("HIV", 0.8, 0.1)
         person = Person(0, False, ebola)
 
         assert person.infection == ebola
@@ -14,7 +14,7 @@ class TestPerson:
         assert person._id == 0
 
     def test_did_survive_infection(self):
-        ebola = Virus("Ebola", 0.8, 0.1)
+        ebola = Virus("HIV", 0.8, 0.1)
         person = Person(0, False, ebola)
 
         if person.did_survive_infection():

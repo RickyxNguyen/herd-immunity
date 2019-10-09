@@ -4,7 +4,7 @@ from virus import Virus
 
 class TestPerson:
     def test_init(self):
-        virus_name = "Ebola"
+        virus_name = "HIV"
         mortality_rate = 0.8
         repro_rate = 0.1
         virus = Virus(virus_name, mortality_rate, repro_rate)
