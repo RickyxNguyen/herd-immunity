@@ -27,6 +27,7 @@ This ReadMe (project description and specs) is a draft to help you get started o
 
 Once you have successfully run a simulation, use your python skills to answer to analyze the simulation results
 1. What were the inputs you gave the simulation? (Population size, percent vaccinated, virus name, mortality rate,  reproductive rate)
+
 1. What percentage of the population became infected at some point before the virus burned out?
 1.  What percentage of the population died from the virus?
 1.  Out of all interactions sick individuals had during the entire simulation, how many total interactions did we see where a vaccination saved a person from potentially becoming infected?
