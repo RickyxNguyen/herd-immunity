@@ -2,7 +2,7 @@ import random
 from virus import Virus
 
 
-class TestPerson:
+class TestVirus:
     def test_init(self):
         virus_name = "HIV"
         mortality_rate = 0.8
