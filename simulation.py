@@ -6,7 +6,6 @@ from virus import Virus
 
 random.seed(42)
 
-
 class Simulation():
     ''' 
     Initializes and will create a file for simulation

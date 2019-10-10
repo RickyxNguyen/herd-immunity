@@ -22,4 +22,3 @@ class Person(object):
 
         self.is_alive = False
         return False
-
